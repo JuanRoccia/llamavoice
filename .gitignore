@@ -1,0 +1,42 @@
+# Ignorar el archivo .env
+.env
+
+# Ignorar el entorno virtual (venv)
+venv/
+env/
+
+# Ignorar dependencias de Python
+__pycache__/
+*.pyc
+
+# Ignorar configuraciones de IDE (como VSCode o PyCharm)
+.vscode/
+.idea/
+
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
+
+# Ignorar bases de datos SQLite
+*.sqlite3
+
+# Ignorar archivos de configuración de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de caché
+.pyc
+
+# Ignorar archivo de contexto
+context.md
+
+# Ignorar old requirements
+requirements-old.txt
+
+# Ignorar archivos grandes que exceden el tamaño permitido
+models/tts_models/es/mai/tacotron2-DDC/model_file.pth
+models/tts_models/es/mai/tacotron2-DDC/scale_stats.npy
+models/vocoder_models--universal--libri-tts--fullband-melgan/model_file.pth
+models/vocoder_models--universal--libri-tts--fullband-melgan/scale_stats.npy
+*.pth
+*.npy
